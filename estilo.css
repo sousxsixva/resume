@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.cbc  {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-info {
+    background-color: red;
+    flex-grow: 2;
+}
+
+.my-con {
+    background-color: burlywood;
+    flex-grow: 1;
+}
