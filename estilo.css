@@ -8,22 +8,24 @@ main {
     margin: 0 auto;
 }
 
-.cbc  {
+.cbc, .pro-skill   {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .my-info {
-    flex-grow: 2;
+    flex: 2;
     display: flex;
     align-items: center;
-    font-size: 40px;
-    
+    font-size: 40px;    
+}
+.my-info h2 {
+    font-size: 20px;
 }
 
 .my-con {
-    flex-grow: 1;
+    flex: 1;
 }
 
 .logo {
@@ -46,7 +48,7 @@ main {
 }
 
 .info-txt {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .icon {
     display: flex;
@@ -54,7 +56,68 @@ main {
     margin-bottom: 10px;
     font-size: 30px;
 }
+
 .icon h4 {
     font-size: 26px;
     margin-left: 9px;
 }
+.icon i {
+    width: 30px;
+    height: 30px;
+    background-color: limegreen;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.pro-skill {
+    align-items: flex-start;
+}
+
+.pro {
+    margin-top: 70px;
+    flex: 3.4;
+}
+
+.skill {
+    flex: 2;
+}
+
+.coluna-esquerda {
+    /*flex: 0.5;*/
+    width: 120px;
+}
+
+.list-principal {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.list-principal {
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+
+.bolinha {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.sub,
+.coluna-esquerda p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #999999;
+}
+
