@@ -1,24 +1,24 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    font-family: 'Kanit', sans-serif;
 }
 
 .cbc  {
-    background-color: yellow;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .my-info {
-    background-color: olivedrab;
     flex-grow: 2;
     display: flex;
     align-items: center;
+    font-size: 40px;
     
 }
 
 .my-con {
-    background-color: greenyellow;
     flex-grow: 1;
 }
 
@@ -43,4 +43,14 @@ body {
 
 .info-txt {
     margin-left: 20px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.icon h4 {
+    font-size: 26px;
+    margin-left: 9px;
 }
